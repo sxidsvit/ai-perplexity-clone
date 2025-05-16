@@ -11,7 +11,7 @@ function SourceList({ webResult, loadingSearch }) {
                 >
                     <div className='flex gap-2 items-center'>
                         <Image src={item?.img}
-                            alt={item?.name}
+                            alt={item?.name || 'webResultImage'}
                             width={20}
                             height={20}
                         />

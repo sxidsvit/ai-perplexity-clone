@@ -2,7 +2,7 @@ import { Loader2Icon, LucideImage, LucideList, LucideSparkles, LucideVideo, Send
 import React, { useEffect, useState } from 'react'
 import AnswerDisplay from './AnswerDisplay';
 import axios from 'axios';
-import { SEARCH_RESULT } from '@/services/Shared';
+import { SEARCH_RESULT, formattedSearchResp } from '@/services/Shared';
 import { supabase } from '@/services/supabase';
 import { useParams } from 'next/navigation';
 import ImageListTab from './ImageListTab';
@@ -28,31 +28,34 @@ function DisplayResult({ searchInputRecord }) {
         // Update this method
         searchInputRecord?.Chats?.length == 0 ? GetSearchApiResult() : GetSearchRecords();
         setSearchResult(searchInputRecord)
-        console.log(searchInputRecord);
     }, [searchInputRecord])
 
     const GetSearchApiResult = async () => {
         setLoadingSearch(true);
-        const result = await axios.post('/api/brave-search-api', {
-            searchInput: userInput ?? searchInputRecord?.searchInput,
-            searchType: searchInputRecord?.type ?? 'Search'
-        });
-        console.log(result.data);
-        const searchResp = result.data;
-        //Save to DB
-        const formattedSearchResp = searchResp?.web?.results?.map((item, index) => (
-            {
-                title: item?.title,
-                description: item?.description,
-                long_name: item?.profile?.long_name,
-                img: item?.profile.img,
-                url: item?.url,
-                thumbnail: item?.thumbnail?.src,
-                original: item?.thumbnail?.original
-            }
-        ))
-        console.log(formattedSearchResp);
+        // const result = await axios.post('/api/brave-search-api', {
+        //     searchInput: userInput ?? searchInputRecord?.searchInput,
+        //     searchType: searchInputRecord?.type ?? 'Search'
+        // });
+        // console.log(result.data);
+        // const searchResp = result.data;
+        // //Save to DB
+        // const formattedSearchResp = searchResp?.web?.results?.map((item, index) => (
+        //     {
+        //         title: item?.title,
+        //         description: item?.description,
+        //         long_name: item?.profile?.long_name,
+        //         img: item?.profile.img,
+        //         url: item?.url,
+        //         thumbnail: item?.thumbnail?.src,
+        //         original: item?.thumbnail?.original
+        //     }
+        // ))
+        // console.log('DUMY formattedSearchResp: ', formattedSearchResp);
+        // console.log('searchInputRecord?.searchInput: ', searchInputRecord?.searchInput)
         // Fetch Latest From DB
+
+        // console.log(`libId - - supabase: `, libId, ' searchInputRecord?.searchInput: ', searchInputRecord?.searchInput)
+        // console.log('formattedSearchResp - supabase: ', formattedSearchResp)
 
         const { data, error } = await supabase
             .from('Chats')
@@ -60,10 +63,13 @@ function DisplayResult({ searchInputRecord }) {
                 {
                     libId: libId,
                     searchResult: formattedSearchResp,
-                    userSearchInput: searchInputRecord?.searchInput
                 },
             ])
             .select()
+        // console.log('data - Chats: ', data);
+
+
+
         setUserInput('')
         await GetSearchRecords();
         setLoadingSearch(false);

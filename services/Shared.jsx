@@ -416,3 +416,77 @@ export const SEARCH_RESULT = {
         "family_friendly": true
     }
 }
+
+export const formattedSearchResp =
+    [
+        {
+            "title": "GitHub - cline/cline: Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+            "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way. - <strong>cline</strong>/<strong>cline</strong>",
+            "long_name": "github.com",
+            "img": "https://imgs.search.brave.com/xxsA4YxzaR0cl-DBsH9-lpv2gsif3KMYgM87p26bs_o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWQyNWM1NjA5/ZjZmZjNlYzI2MDNk/N2VkNmJhYjE2MzZl/MDY5ZTMxMDUzZmY1/NmU3NWIzNWVmMjk0/NTBjMjJjZi9naXRo/dWIuY29tLw",
+            "url": "https://github.com/cline/cline",
+            "thumbnail": "https://imgs.search.brave.com/3neaHHAedo8WHIJ4Et2GAfrJ5r6CFIqKrE_VkoGLyEY/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS84/MzkzMWQ3NGFmNWQ4/Y2Y1MWFmNDNlNjVm/OWRkN2UzMDFlOTg0/MDNiMDYxOTMxNmYy/Yzc4NjYxYWY4NjU5/ZjBiL2NsaW5lL2Ns/aW5l",
+            "original": "https://opengraph.githubassets.com/83931d74af5d8cf51af43e65f9dd7e301e98403b0619316f2c78661af8659f0b/cline/cline"
+        },
+        {
+            "title": "Cline Documentation | Cline",
+            "description": "Last updated 27 days ago · Welcome to the <strong>Cline</strong> documentation - your comprehensive guide to using and extending <strong>Cline</strong>&#x27;s capabilities. Here you&#x27;ll find resources to help you get started, improve your skills, and contribute to the project",
+            "long_name": "docs.cline.bot",
+            "img": "https://imgs.search.brave.com/XVP63R3L4bIebzAWhEw0f-ZB6g8O6pfdXqGJl5TgjnE/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNWNmOGJl/MTMzZTg5OTQ5MTgw/MmQxMjEwNjM4ZThj/ODE0MTM4MDA0MWY0/YThjODQ4NWRmZTJm/NmNlZmY5OS9kb2Nz/LmNsaW5lLmJvdC8",
+            "url": "https://docs.cline.bot/",
+            "thumbnail": "https://imgs.search.brave.com/LkBCe87aufwsuqhINk4MSfETBY-_P8oCpIVupV2g4pc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kb2Nz/LmNsaW5lLmJvdC9-/Z2l0Ym9vay9pbWFn/ZT91cmw9aHR0cHMl/M0ElMkYlMkY0MTY2/Mzg3NzM0LWZpbGVz/LmdpdGJvb2suaW8l/MkYlN0UlMkZmaWxl/cyUyRnYwJTJGYiUy/RmdpdGJvb2steC1w/cm9kLmFwcHNwb3Qu/Y29tJTJGbyUyRm9y/Z2FuaXphdGlvbnMl/MjUyRnJnVmxoTnh5/dzBMMDRjTTNPNEpm/JTI1MkZzaXRlcyUy/NTJGc2l0ZV9kVzhP/QiUyNTJGc29jaWFs/cHJldmlldyUyNTJG/TWNtM2xvMkliVUtC/aUVFSmFSMGElMjUy/RlNjcmVlbnNob3Ql/MjUyMDIwMjUtMDIt/MjAlMjUyMGF0JTI1/MjAxLjE0LjEzJTI1/RTIlMjU4MCUyNUFG/UE0ucG5nJTNGYWx0/JTNEbWVkaWElMjZ0/b2tlbiUzRDIzYTNj/MWM3LWQ3YWEtNGM4/Yi1iYWZiLWY5YWMy/M2JjYzYwMiZhbXA7/d2lkdGg9MTIwMCZh/bXA7aGVpZ2h0PTYz/MCZhbXA7c2lnbj1k/ZGVmMzkwJmFtcDtz/dj0y",
+            "original": "https://docs.cline.bot/~gitbook/image?url=https%3A%2F%2F4166387734-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FrgVlhNxyw0L04cM3O4Jf%252Fsites%252Fsite_dW8OB%252Fsocialpreview%252FMcm3lo2IbUKBiEEJaR0a%252FScreenshot%25202025-02-20%2520at%25201.14.13%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D23a3c1c7-d7aa-4c8b-bafb-f9ac23bcc602&amp;width=1200&amp;height=630&amp;sign=ddef390&amp;sv=2"
+        },
+        {
+            "title": "Home · cline/cline Wiki · GitHub",
+            "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way. - Home · <strong>cline</strong>/<strong>cline</strong> Wiki",
+            "long_name": "github.com",
+            "img": "https://imgs.search.brave.com/xxsA4YxzaR0cl-DBsH9-lpv2gsif3KMYgM87p26bs_o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWQyNWM1NjA5/ZjZmZjNlYzI2MDNk/N2VkNmJhYjE2MzZl/MDY5ZTMxMDUzZmY1/NmU3NWIzNWVmMjk0/NTBjMjJjZi9naXRo/dWIuY29tLw",
+            "url": "https://github.com/cline/cline/wiki",
+            "thumbnail": "https://imgs.search.brave.com/02pOeyjEUfl78gxH0NXJfrLZ5y5fLaNhuL-E4Q0daaY/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS8y/ODA3Zjg3NmRkYmQ5/MTRkNGE5OWQ5MzMx/ZWY0YTIzYjZkNzc1/NjMxODNlYWY0OTVk/ODlmODZhZmU4N2U4/NDE3L2NsaW5lL2Ns/aW5l",
+            "original": "https://opengraph.githubassets.com/2807f876ddbd914d4a99d9331ef4a23b6d77563183eaf495d89f86afe87e8417/cline/cline"
+        },
+        {
+            "title": "Cline Tools Guide | Cline",
+            "description": "<strong>Cline</strong> is your AI assistant that can: · Edit and create files in your project",
+            "long_name": "docs.cline.bot",
+            "img": "https://imgs.search.brave.com/XVP63R3L4bIebzAWhEw0f-ZB6g8O6pfdXqGJl5TgjnE/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNWNmOGJl/MTMzZTg5OTQ5MTgw/MmQxMjEwNjM4ZThj/ODE0MTM4MDA0MWY0/YThjODQ4NWRmZTJm/NmNlZmY5OS9kb2Nz/LmNsaW5lLmJvdC8",
+            "url": "https://docs.cline.bot/exploring-clines-tools/cline-tools-guide",
+            "thumbnail": "https://imgs.search.brave.com/LkBCe87aufwsuqhINk4MSfETBY-_P8oCpIVupV2g4pc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kb2Nz/LmNsaW5lLmJvdC9-/Z2l0Ym9vay9pbWFn/ZT91cmw9aHR0cHMl/M0ElMkYlMkY0MTY2/Mzg3NzM0LWZpbGVz/LmdpdGJvb2suaW8l/MkYlN0UlMkZmaWxl/cyUyRnYwJTJGYiUy/RmdpdGJvb2steC1w/cm9kLmFwcHNwb3Qu/Y29tJTJGbyUyRm9y/Z2FuaXphdGlvbnMl/MjUyRnJnVmxoTnh5/dzBMMDRjTTNPNEpm/JTI1MkZzaXRlcyUy/NTJGc2l0ZV9kVzhP/QiUyNTJGc29jaWFs/cHJldmlldyUyNTJG/TWNtM2xvMkliVUtC/aUVFSmFSMGElMjUy/RlNjcmVlbnNob3Ql/MjUyMDIwMjUtMDIt/MjAlMjUyMGF0JTI1/MjAxLjE0LjEzJTI1/RTIlMjU4MCUyNUFG/UE0ucG5nJTNGYWx0/JTNEbWVkaWElMjZ0/b2tlbiUzRDIzYTNj/MWM3LWQ3YWEtNGM4/Yi1iYWZiLWY5YWMy/M2JjYzYwMiZhbXA7/d2lkdGg9MTIwMCZh/bXA7aGVpZ2h0PTYz/MCZhbXA7c2lnbj1k/ZGVmMzkwJmFtcDtz/dj0y",
+            "original": "https://docs.cline.bot/~gitbook/image?url=https%3A%2F%2F4166387734-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FrgVlhNxyw0L04cM3O4Jf%252Fsites%252Fsite_dW8OB%252Fsocialpreview%252FMcm3lo2IbUKBiEEJaR0a%252FScreenshot%25202025-02-20%2520at%25201.14.13%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D23a3c1c7-d7aa-4c8b-bafb-f9ac23bcc602&amp;width=1200&amp;height=630&amp;sign=ddef390&amp;sv=2"
+        },
+        {
+            "title": "For New Coders - Cline",
+            "description": "Welcome to <strong>Cline</strong>, your AI-powered coding companion! This guide will help you quickly set up your development environment and begin your coding journey with ease.",
+            "long_name": "docs.cline.bot",
+            "img": "https://imgs.search.brave.com/XVP63R3L4bIebzAWhEw0f-ZB6g8O6pfdXqGJl5TgjnE/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNWNmOGJl/MTMzZTg5OTQ5MTgw/MmQxMjEwNjM4ZThj/ODE0MTM4MDA0MWY0/YThjODQ4NWRmZTJm/NmNlZmY5OS9kb2Nz/LmNsaW5lLmJvdC8",
+            "url": "https://docs.cline.bot/getting-started/for-new-coders",
+            "thumbnail": "https://imgs.search.brave.com/QiKi7ys1LVrj7RMUT7Or5o8M1UNoxK6UbQX268FUhfU/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jbGlu/ZS1lZmRjODI2MC5t/aW50bGlmeS5hcHAv/bWludGxpZnktYXNz/ZXRzL19uZXh0L2lt/YWdlP3VybD0lMkZh/cGklMkZvZyUzRmRp/dmlzaW9uJTNERG9j/dW1lbnRhdGlvbiUy/Nm1vZGUlM0RzeXN0/ZW0lMjZ0aXRsZSUz/REZvciUyQk5ldyUy/QkNvZGVycyUyNmRl/c2NyaXB0aW9uJTNE/V2VsY29tZSUyQnRv/JTJCQ2xpbmUlMjUy/QyUyQnlvdXIlMkJB/SS1wb3dlcmVkJTJC/Y29kaW5nJTJCY29t/cGFuaW9uJTI1MjEl/MkJUaGlzJTJCZ3Vp/ZGUlMkJ3aWxsJTJC/aGVscCUyQnlvdSUy/QnF1aWNrbHklMkJz/ZXQlMkJ1cCUyQnlv/dXIlMkJkZXZlbG9w/bWVudCUyQmVudmly/b25tZW50JTJCYW5k/JTJCYmVnaW4lMkJ5/b3VyJTJCY29kaW5n/JTJCam91cm5leSUy/QndpdGglMkJlYXNl/LiUyNmxvZ29MaWdo/dCUzRGh0dHBzJTI1/M0ElMjUyRiUyNTJG/bWludGxpZnkuczMu/dXMtd2VzdC0xLmFt/YXpvbmF3cy5jb20l/MjUyRmNsaW5lLWVm/ZGM4MjYwJTI1MkZh/c3NldHMlMjUyRnJv/Ym90X3BhbmVsX2xp/Z2h0LnBuZyUyNmxv/Z29EYXJrJTNEaHR0/cHMlMjUzQSUyNTJG/JTI1MkZtaW50bGlm/eS5zMy51cy13ZXN0/LTEuYW1hem9uYXdz/LmNvbSUyNTJGY2xp/bmUtZWZkYzgyNjAl/MjUyRmFzc2V0cyUy/NTJGcm9ib3RfcGFu/ZWxfZGFyay5wbmcl/MjZwcmltYXJ5Q29s/b3IlM0QlMjUyMzlE/NEVERCUyNmxpZ2h0/Q29sb3IlM0QlMjUy/M0YwRTZGRiUyNmRh/cmtDb2xvciUzRCUy/NTIzMDAwMDAwJmFt/cDt3PTEyMDAmYW1w/O3E9MTAw",
+            "original": "https://cline-efdc8260.mintlify.app/mintlify-assets/_next/image?url=%2Fapi%2Fog%3Fdivision%3DDocumentation%26mode%3Dsystem%26title%3DFor%2BNew%2BCoders%26description%3DWelcome%2Bto%2BCline%252C%2Byour%2BAI-powered%2Bcoding%2Bcompanion%2521%2BThis%2Bguide%2Bwill%2Bhelp%2Byou%2Bquickly%2Bset%2Bup%2Byour%2Bdevelopment%2Benvironment%2Band%2Bbegin%2Byour%2Bcoding%2Bjourney%2Bwith%2Bease.%26logoLight%3Dhttps%253A%252F%252Fmintlify.s3.us-west-1.amazonaws.com%252Fcline-efdc8260%252Fassets%252Frobot_panel_light.png%26logoDark%3Dhttps%253A%252F%252Fmintlify.s3.us-west-1.amazonaws.com%252Fcline-efdc8260%252Fassets%252Frobot_panel_dark.png%26primaryColor%3D%25239D4EDD%26lightColor%3D%2523F0E6FF%26darkColor%3D%2523000000&amp;w=1200&amp;q=100"
+        },
+        {
+            "title": "What is Cline and How to Use Cline for Beginners",
+            "description": "Grab <strong>Cline</strong> from the VS Code Marketplace, play around, and see how it transforms your coding game. Happy coding, friends! ... Postman alternativePostman send jsonPostman collection runner limiAPI Upload fileWebsocket connection to failedFree API for testingSwagger alternativesSwagger UISwagger PHPSwagger localhost url ... Learn to set up Fetch MCP Server with Claude Desktop in this <strong>tutorial</strong>...",
+            "long_name": "apidog.com",
+            "img": "https://imgs.search.brave.com/u0a_Hq7cH2Lg8r1teHZwVcc-CD4DGtlk0Unbf2vnoCk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTgxNjE0ZTJm/N2RiYjQzMjA4MGQw/N2FjYjU0NDE2OTZk/OWFkNmY1MGQ1NDYx/ZTQ5MjY4MmRmYTYw/OTFkNjY0OS9hcGlk/b2cuY29tLw",
+            "url": "https://apidog.com/blog/how-to-use-cline/",
+            "thumbnail": "https://imgs.search.brave.com/AZ6dUAE2mDvJCGMFG1t9iHwkvancHJGykGh27kyoXdE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYXBpZG9nLmNv/bS9ibG9nLW5leHQv/MjAyNS8wNC9NQ1At/U2VydmVycy0tMS0t/Ni5wbmc",
+            "original": "https://assets.apidog.com/blog-next/2025/04/MCP-Servers--1--6.png"
+        },
+        {
+            "title": "Cline - AI Autonomous Coding Agent for VS Code",
+            "description": "<strong>Cline</strong> is an open-source AI coding assistant with dual Plan/Act modes, terminal execution, and Model Context Protocol (MCP) for VS Code. Alternative to GitHub Copilot with extensible tools and real-time debugging.",
+            "long_name": "cline.bot",
+            "img": "https://imgs.search.brave.com/ibAsvybzVXd8cAkB9EUwUafm6AhUHz5SqN3Bx5I9-Io/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMmE3MDFlYTY3/NjE4ZDU5OTg3ZTY4/ZjRhYzBiOTY0MmJk/NjhlMWUwODIyOWNh/M2MyZDEwZmI1Yzdm/NDA3Nzc4MS9jbGlu/ZS5ib3Qv",
+            "url": "https://cline.bot/"
+        },
+        {
+            "title": "r/ClaudeAI on Reddit: Cline Custom Instructions Guide",
+            "description": "I’ve just recently started with <strong>Cline</strong> &amp; Sonnett 3.6. I found this set of custom instructions through the <strong>Cline</strong> Discord for anyone that is looking for…",
+            "long_name": "reddit.com",
+            "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1glwtk0/cline_custom_instructions_guide/",
+            "thumbnail": "https://imgs.search.brave.com/A5H_aQiEBuUODR0lNeU8iDfhrWUvO8oEmRGE_mcS_gM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVkZGl0c3RhdGlj/LmNvbS9pY29uLnBu/Zw",
+            "original": "https://www.redditstatic.com/icon.png"
+        }
+    ]

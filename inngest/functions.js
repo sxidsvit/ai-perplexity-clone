@@ -16,16 +16,18 @@ export const llmModel = inngest.createFunction(
     async ({ event, step }) => {
         const aiResp = await step.ai.infer('generate-ai-llm-model-call', {
             model: step.ai.models.gemini({
-                model: 'gemini-2.0-flash-exp-image-generation',
+                // model: 'gemini-2.0-flash-exp-image-generation',
+                model: 'gemini-1.5-flash',
                 apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY
             }),
             body: {
                 contents: [
                     {
+                        // role: 'system',
                         role: 'assistant',
                         parts: [
                             {
-                                text: 'Depends on user input sources, Summerize and search about topic, Give e markdowb text with proper formatting. User Input is:'
+                                text: 'Depends on user input sources, Summarize and search about topic, Give me markdown text with proper formatting. User Input is:'
                                     + event.data.searchInput
                             }
                         ]
