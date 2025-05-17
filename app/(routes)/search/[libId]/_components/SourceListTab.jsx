@@ -2,11 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 
 function SourceListTab({ chat }) {
-    console.log('chat?.searchResult.length = ', chat?.searchResult.length)
     return (
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 '>
             {chat?.searchResult.map((item, index) => (
-                <div key={index} className='border-2 mt-6 p-3 rounded-2xl shadow-sm cursor-pointer'
+                <div key={index} className=' border-2 mt-6 p-3 rounded-2xl shadow-sm cursor-pointer'
                     onClick={() => window.open(item.url, '_blank')}>
                     <div className='flex gap-2  items-center '>
                         <h2>{index + 1}</h2>
