@@ -5,7 +5,7 @@ function ImageListTab({ chat }) {
     return (
         <div className='flex gap-5 flex-wrap  mt-6 '>
             {chat.searchResult.map((item, index) => (
-                <div className='flex flex-col bg-accent rounded-xl p-3 w-[200px] h-[180px]'>
+                <div key={index} className='flex flex-col bg-accent rounded-xl p-3 w-[200px] h-[180px]'>
                     <img src={item?.original || item.img} alt={item.title}
                         width={200}
                         height={100}

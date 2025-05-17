@@ -3,11 +3,10 @@ import React from 'react'
 
 function VideoListTab({ chat }) {
 
-  console.log('chat.searchVideoResult: ', chat?.searchVideoResult)
   return (
     <div className='flex gap-5 flex-wrap  mt-6 '>
       {chat.searchVideoResult.map((item, index) => (
-        <div className='flex flex-col bg-accent rounded-xl p-3 w-[200px] h-[180px]'>
+        <div key={index} className='flex flex-col bg-accent rounded-xl p-3 w-[200px] h-[180px]'>
 
           <img src={item?.thumbnail || item.img} alt={item?.title}
             width={200}
