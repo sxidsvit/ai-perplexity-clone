@@ -14,7 +14,7 @@ const tabs = [
     { label: 'Answer', icon: LucideSparkles },
     { label: 'Images', icon: LucideImage },
     { label: 'Videos', icon: LucideVideo },
-    { label: 'Sources', icon: LucideList, badge: 10 },
+    { label: 'Sources', icon: LucideList, badge: true },
 ];
 
 
@@ -142,7 +142,7 @@ function DisplayResult({ searchInputRecord }) {
                                 <span>{label}</span>
                                 {badge && (
                                     <span className="ml-1 text-xs bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">
-                                        {badge}
+                                        {chat?.searchResult.length}
                                     </span>
                                 )}
                                 {activeTab === label && (
