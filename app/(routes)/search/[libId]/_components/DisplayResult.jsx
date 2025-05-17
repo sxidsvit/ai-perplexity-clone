@@ -28,6 +28,7 @@ function DisplayResult({ searchInputRecord }) {
         // Update this method
         searchInputRecord?.Chats?.length == 0 ? GetSearchApiResult() : GetSearchRecords();
         setSearchResult(searchInputRecord)
+        console.log('Chats: ', searchInputRecord?.Chats)
     }, [searchInputRecord])
 
     const GetSearchApiResult = async () => {
@@ -47,7 +48,7 @@ function DisplayResult({ searchInputRecord }) {
         //         img: item?.profile.img,
         //         url: item?.url,
         //         thumbnail: item?.thumbnail?.src,
-        //         original: item?.thumbnail?.original
+        //         original: item?.thumbnail?.original 
         //     }
         // ))
         // console.log('DUMY formattedSearchResp: ', formattedSearchResp);
@@ -63,12 +64,11 @@ function DisplayResult({ searchInputRecord }) {
                 {
                     libId: libId,
                     searchResult: formattedSearchResp,
+                    userSearchInput: searchInputRecord?.searchInput
                 },
             ])
             .select()
-        // console.log('data - Chats: ', data);
-
-
+        console.log('data - Chats: ', data);
 
         setUserInput('')
         await GetSearchRecords();
@@ -84,7 +84,6 @@ function DisplayResult({ searchInputRecord }) {
             recordId: recordId
         });
 
-        console.log(result.data);
         const runId = result.data
 
         const interval = setInterval(async () => {
@@ -93,7 +92,7 @@ function DisplayResult({ searchInputRecord }) {
             });
 
             if (runResp?.data?.data[0]?.status == 'Completed') {
-                console.log('Completd!!!')
+                console.log('Completed!!!')
                 await GetSearchRecords();
                 clearInterval(interval);
                 // Get Updated Data from DB
