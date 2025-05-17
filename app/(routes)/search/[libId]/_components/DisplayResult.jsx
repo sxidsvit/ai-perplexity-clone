@@ -8,11 +8,12 @@ import { useParams } from 'next/navigation';
 import ImageListTab from './ImageListTab';
 import SourceList from './SourceList';
 import SourceListTab from './SourceListTab';
+import VideoListTab from './VideoListTab';
 import { Button } from '@/components/ui/button';
 const tabs = [
     { label: 'Answer', icon: LucideSparkles },
     { label: 'Images', icon: LucideImage },
-    // { label: 'Videos', icon: LucideVideo },
+    { label: 'Videos', icon: LucideVideo },
     { label: 'Sources', icon: LucideList, badge: 10 },
 ];
 
@@ -28,7 +29,7 @@ function DisplayResult({ searchInputRecord }) {
         // Update this method
         searchInputRecord?.Chats?.length == 0 ? GetSearchApiResult() : GetSearchRecords();
         setSearchResult(searchInputRecord)
-        console.log('Chats: ', searchInputRecord?.Chats)
+        // console.log('Chats: ', searchInputRecord?.Chats)
     }, [searchInputRecord])
 
     const GetSearchApiResult = async () => {
@@ -37,26 +38,31 @@ function DisplayResult({ searchInputRecord }) {
         //     searchInput: userInput ?? searchInputRecord?.searchInput,
         //     searchType: searchInputRecord?.type ?? 'Search'
         // });
-        // console.log(result.data);
         // const searchResp = result.data;
-        // //Save to DB
-        // const formattedSearchResp = searchResp?.web?.results?.map((item, index) => (
-        //     {
-        //         title: item?.title,
-        //         description: item?.description,
-        //         long_name: item?.profile?.long_name,
-        //         img: item?.profile.img,
-        //         url: item?.url,
-        //         thumbnail: item?.thumbnail?.src,
-        //         original: item?.thumbnail?.original 
-        //     }
-        // ))
-        // console.log('DUMY formattedSearchResp: ', formattedSearchResp);
-        // console.log('searchInputRecord?.searchInput: ', searchInputRecord?.searchInput)
-        // Fetch Latest From DB
+        // console.log('searchResp = result.data: ', searchResp);
 
-        // console.log(`libId - - supabase: `, libId, ' searchInputRecord?.searchInput: ', searchInputRecord?.searchInput)
-        // console.log('formattedSearchResp - supabase: ', formattedSearchResp)
+        const searchResp = SEARCH_RESULT
+        // //Save to DB
+        const formattedSearchResp = searchResp?.web?.results?.map((item, index) => (
+            {
+                title: item?.title,
+                description: item?.description,
+                long_name: item?.profile?.long_name,
+                img: item?.profile.img,
+                url: item?.url,
+                thumbnail: item?.thumbnail?.src,
+                original: item?.thumbnail?.original
+            }
+        ))
+
+        const formattedVideoSearchResp = searchResp?.videos?.results?.map((item, index) => (
+            {
+                url: item?.url,
+                title: item?.title,
+                description: item?.description,
+                thumbnail: item?.thumbnail?.src,
+            }
+        ))
 
         const { data, error } = await supabase
             .from('Chats')
@@ -64,11 +70,12 @@ function DisplayResult({ searchInputRecord }) {
                 {
                     libId: libId,
                     searchResult: formattedSearchResp,
+                    searchVideoResult: formattedVideoSearchResp,
                     userSearchInput: searchInputRecord?.searchInput
                 },
             ])
             .select()
-        console.log('data - Chats: ', data);
+        console.log('Chats (data from table): ', data);
 
         setUserInput('')
         await GetSearchRecords();
@@ -151,9 +158,13 @@ function DisplayResult({ searchInputRecord }) {
                     <div>
                         {activeTab == 'Answer' ?
                             <AnswerDisplay chat={chat} loadingSearch={loadingSearch} /> :
-                            activeTab == 'Images' ? <ImageListTab chat={chat} />
-                                : activeTab == 'Sources' ?
-                                    <SourceListTab chat={chat} /> : null
+                            activeTab == 'Images' ?
+                                <ImageListTab chat={chat} /> :
+                                activeTab == 'Videos' ?
+                                    <VideoListTab chat={chat} /> :
+                                    activeTab == 'Sources' ?
+                                        <SourceListTab chat={chat} /> :
+                                        null
                         }
                     </div>
                     <hr className='my-5' />

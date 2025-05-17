@@ -33,13 +33,15 @@ export const AIModelsOption = [
 
 
 
-export const SEARCH_RESULT = {
+export const SEARCH_RESULT =
+
+{
     "query": {
-        "original": "Tubeguruji Youtube",
+        "original": "n8n best tutorials 2025",
         "show_strict_warning": false,
         "is_navigational": false,
         "is_news_breaking": false,
-        "spellcheck_off": false,
+        "spellcheck_off": true,
         "country": "us",
         "bad_results": false,
         "should_fallback": false,
@@ -130,6 +132,31 @@ export const SEARCH_RESULT = {
                 "type": "web",
                 "index": 14,
                 "all": false
+            },
+            {
+                "type": "web",
+                "index": 15,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 16,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 17,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 18,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 19,
+                "all": false
             }
         ],
         "top": [],
@@ -141,9 +168,11 @@ export const SEARCH_RESULT = {
         "results": [
             {
                 "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=RtGNDEUkDNg",
-                "title": "Guruji Satsang Blessings Live by Nitin uncle latest",
-                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+                "url": "https://www.youtube.com/watch?v=lSwMtsm6oDU",
+                "title": "N8N Tutorial: Building N8N Ai Agents (Beginner to Pro) 🤖✨ ...",
+                "description": "✨Join Ai Pioneers: https://www.skool.com/ai-pioneers🚀Join Ai Foundations: https://www.skool.com/ai-foundations/In today's guide I'm going to take you from b",
+                "age": "January 13, 2025",
+                "page_age": "2025-01-13T16:00:06",
                 "video": {},
                 "meta_url": {
                     "scheme": "https",
@@ -153,75 +182,21 @@ export const SEARCH_RESULT = {
                     "path": "› watch"
                 },
                 "thumbnail": {
-                    "src": "https://imgs.search.brave.com/98y-EcRpK_StguHmONR1ACItF-OPzwokWSJt-itEmbg/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9S/dEdOREVVa0ROZy9o/cWRlZmF1bHQuanBn",
-                    "original": "https://i.ytimg.com/vi/RtGNDEUkDNg/hqdefault.jpg"
+                    "src": "https://imgs.search.brave.com/idgsm6u3H8bt0EDmrSBU0zKoqqDQ4-iWxaauYjg9rPw/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9s/U3dNdHNtNm9EVS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+                    "original": "https://i.ytimg.com/vi/lSwMtsm6oDU/maxresdefault.jpg"
                 }
             },
             {
                 "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=GYTNVu2j40c",
-                "title": "Guruji Satsang Blessings Live today",
-                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-                "video": {},
-                "meta_url": {
-                    "scheme": "https",
-                    "netloc": "youtube.com",
-                    "hostname": "www.youtube.com",
-                    "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
-                    "path": "› watch"
-                },
-                "thumbnail": {
-                    "src": "https://imgs.search.brave.com/Dfhtz2LSIg1Wc0u8_27Bj9mdlTSxNW35XJzF0WDcC1M/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9H/WVROVnUyajQwYy9o/cWRlZmF1bHQuanBn",
-                    "original": "https://i.ytimg.com/vi/GYTNVu2j40c/hqdefault.jpg"
-                }
-            },
-            {
-                "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=_qU2mxznqSs",
-                "title": "Guruji Satsang Blessings Live Nitin uncle",
-                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-                "video": {},
-                "meta_url": {
-                    "scheme": "https",
-                    "netloc": "youtube.com",
-                    "hostname": "www.youtube.com",
-                    "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
-                    "path": "› watch"
-                },
-                "thumbnail": {
-                    "src": "https://imgs.search.brave.com/gkneBWXJqBlmeZAmnk9YmsPQVYcZz712qVk63ONolAs/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9f/cVUybXh6bnFTcy9o/cWRlZmF1bHQuanBn",
-                    "original": "https://i.ytimg.com/vi/_qU2mxznqSs/hqdefault.jpg"
-                }
-            },
-            {
-                "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=fp-Jnxnaa_s",
-                "title": "होगी कृपा तेरे ते सबर ते शुकराना | Guruji satsang blessings live ...",
-                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-                "video": {},
-                "meta_url": {
-                    "scheme": "https",
-                    "netloc": "youtube.com",
-                    "hostname": "www.youtube.com",
-                    "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
-                    "path": "› watch"
-                },
-                "thumbnail": {
-                    "src": "https://imgs.search.brave.com/nA7mZxJ_1VUXE2AH0JRpP_VrXHDHCcmCHSVTEvpPfB8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9m/cC1KbnhuYWFfcy9o/cWRlZmF1bHQuanBn",
-                    "original": "https://i.ytimg.com/vi/fp-Jnxnaa_s/hqdefault.jpg"
-                }
-            },
-            {
-                "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=-tz9Rro6PD4",
-                "title": "🙏🏻॥ॐ Jai Guruji ੴ ॥🙏🏻🌹Guruji's Satsang by ...",
-                "description": "🙏🏻॥ॐ Jai Guruji ੴ ॥🙏🏻🌹Guruji's Satsang by Kapila Aunty (Guruji's Old Sangat)🙏🏻more details:https://www.gurujiedisonmandir.com🙏🏻🌹Guruji Edison Mandi...",
-                "age": "April 12, 2024",
-                "page_age": "2024-04-12T18:16:14",
+                "url": "https://www.youtube.com/watch?v=4BVTkqbn_tY",
+                "title": "n8n Beginner Course (1/9) - Introduction to Automation - YouTube",
+                "description": "⌨ Sign up to n8n Cloud for a free trial: https://app.n8n.cloud/registerOr:npm install -g n8nn8n start*Resources:*❔ Need help or want to discuss the course? J",
+                "age": "June 19, 2024",
+                "page_age": "2024-06-19T12:01:34",
                 "video": {
-                    "duration": "19:02",
-                    "views": 1027,
-                    "creator": "Guruji Edison Mandir",
+                    "duration": "12:48",
+                    "views": 8108,
+                    "creator": "n8n",
                     "publisher": "YouTube"
                 },
                 "meta_url": {
@@ -232,21 +207,57 @@ export const SEARCH_RESULT = {
                     "path": "› watch"
                 },
                 "thumbnail": {
-                    "src": "https://imgs.search.brave.com/Bf6lUwwQgELOG1xmIYkIqhfL8ejwDZpb5T9JQt_ojWQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS8t/dHo5UnJvNlBENC9o/cWRlZmF1bHQuanBn",
-                    "original": "https://i.ytimg.com/vi/-tz9Rro6PD4/hqdefault.jpg"
+                    "src": "https://imgs.search.brave.com/tP8gOD_YZN62VojH9FVQ-E9AEeTWVzTshoGN3ZWEwT8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS80/QlZUa3Fibl90WS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+                    "original": "https://i.ytimg.com/vi/4BVTkqbn_tY/maxresdefault.jpg"
                 }
             },
             {
                 "type": "video_result",
-                "url": "https://www.youtube.com/watch?v=4dXA9YCMMGs",
-                "title": "GURUJI 6 Best Bhajans @gurujiraavinder - YouTube",
-                "description": "Latest Guru Ji Bhajan | | Best Guru Ji Bhajan | New Composition | New Song | RaavinderRaavinder#Jaiguruji #Raavinder #Blessings #Gurujisatsang #गुरूजी #guru...",
-                "age": "June 9, 2023",
-                "page_age": "2023-06-09T00:30:02",
+                "url": "https://www.youtube.com/watch?v=_EdRzDY9nh4",
+                "title": "How to use n8n ( LowCode Workflow Automation ) For ...",
+                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+                "video": {},
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "youtube.com",
+                    "hostname": "www.youtube.com",
+                    "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+                    "path": "› watch"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/sbDMXMbIBp_phIjM4XiYxnoqCKsCIOTWjM9P3dwNhcg/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9f/RWRSekRZOW5oNC9o/cWRlZmF1bHQuanBn",
+                    "original": "https://i.ytimg.com/vi/_EdRzDY9nh4/hqdefault.jpg"
+                }
+            },
+            {
+                "type": "video_result",
+                "url": "https://m.youtube.com/watch?v=TEsE8HxPnHk&t=0s",
+                "title": "n8n Tutorial #3: 5 keys to mastering n8n as a beginner",
+                "description": "Share your videos with friends, family, and the world",
+                "video": {},
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "m.youtube.com",
+                    "hostname": "m.youtube.com",
+                    "favicon": "https://imgs.search.brave.com/p0B86IaQr1YuFWzlQTuEltmxPAh7UzF2DpyN8i96T6M/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZTExOWJhZDk1/ZTUxZWUwYmE3NTg0/N2QzZjQwZjZhMTE5/ZTc1NWY5MzMwYjll/OTJhNTM3ZjdmZTMw/MzdlM2EwNC9tLnlv/dXR1YmUuY29tLw",
+                    "path": "› watch"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/u2fw-3uXCfyYmEPM1AZoCIVkhzEKqnb0EOS8acg0xe4/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9U/RXNFOEh4UG5Iay9o/cWRlZmF1bHQuanBn",
+                    "original": "https://i.ytimg.com/vi/TEsE8HxPnHk/hqdefault.jpg"
+                }
+            },
+            {
+                "type": "video_result",
+                "url": "https://www.youtube.com/watch?v=380Z8cZyFc8",
+                "title": "How to Build Your Very First Workflow in n8n | n8n Tutorial - YouTube",
+                "description": "In this video, you'll learn how to create your first n8n workflow by building a pizza order form, with orders automatically stored in Airtable. We cover the ...",
+                "age": "September 5, 2024",
+                "page_age": "2024-09-05T06:00:01",
                 "video": {
-                    "duration": "51:19",
-                    "views": 26346,
-                    "creator": "Guruji Raavinder",
+                    "duration": "26:03",
+                    "views": 22224,
+                    "creator": "Leon van Zyl",
                     "publisher": "YouTube"
                 },
                 "meta_url": {
@@ -257,8 +268,8 @@ export const SEARCH_RESULT = {
                     "path": "› watch"
                 },
                 "thumbnail": {
-                    "src": "https://imgs.search.brave.com/esDe5LtCoxJEIEmb7PRMNdKpxNsyxTxYxDf02NFHuug/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS80/ZFhBOVlDTU1Hcy9t/YXhyZXNkZWZhdWx0/LmpwZw",
-                    "original": "https://i.ytimg.com/vi/4dXA9YCMMGs/maxresdefault.jpg"
+                    "src": "https://imgs.search.brave.com/3oonnp_NHe1543UVrOGWIPh67yYZ1DtRMJo0W1kghnU/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS8z/ODBaOGNaeUZjOC9t/YXhyZXNkZWZhdWx0/LmpwZw",
+                    "original": "https://i.ytimg.com/vi/380Z8cZyFc8/maxresdefault.jpg"
                 }
             }
         ],
@@ -268,46 +279,128 @@ export const SEARCH_RESULT = {
         "type": "search",
         "results": [
             {
-                "title": "TubeGuruji - YouTube",
-                "url": "https://www.youtube.com/@tubeguruji",
+                "title": "Tutorials - n8n Community",
+                "url": "https://community.n8n.io/c/tutorials/28",
                 "is_source_local": false,
                 "is_source_both": false,
-                "description": "8,42,342,246 Views Welcome to <strong>TUBEGURUJI</strong>, the ultimate destination for coding and programming tutorials! Our channel is dedicated to helping developers of all levels improve their skills and advance their careers. Whether you&#x27;re just starting out in the world of coding or are an experienced ...",
+                "description": "Join the <strong>n8n</strong> Community to connect with other users, learn from detailed discussions, and share your automation insights. Explore topics and get support.",
+                "profile": {
+                    "name": "n8n Community",
+                    "url": "https://community.n8n.io/c/tutorials/28",
+                    "long_name": "community.n8n.io",
+                    "img": "https://imgs.search.brave.com/YATRA8X2ZkcZNQS2w4gySZNsA_T3Ip3kM6EjKVPw2uQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTViNjE4ZmM1/ZjVlMzA5N2VhMWU2/NzYzZTQ3NzMzZDAy/MTg5YWJjYmE3MWUx/MTU2MjNhNjkyOWEx/Y2RjNGFiZi9jb21t/dW5pdHkubjhuLmlv/Lw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "community.n8n.io",
+                    "hostname": "community.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/YATRA8X2ZkcZNQS2w4gySZNsA_T3Ip3kM6EjKVPw2uQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTViNjE4ZmM1/ZjVlMzA5N2VhMWU2/NzYzZTQ3NzMzZDAy/MTg5YWJjYmE3MWUx/MTU2MjNhNjkyOWEx/Y2RjNGFiZi9jb21t/dW5pdHkubjhuLmlv/Lw",
+                    "path": "› c  › tutorials  › 28"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/Vrj7omhHSNigjozj2Ro83JzRt3k8Cp8gmtfGFsw3yyk/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jb21t/dW5pdHkubjhuLmlv/L3VwbG9hZHMvZGVm/YXVsdC9vcmlnaW5h/bC8zWC85L2QvOWRl/MGNlOWRiYjE0Y2Qw/YzQ3NmM0ZjE1MzZj/ODdmNDQ3YzRmMGQw/Mi5wbmc",
+                    "original": "https://community.n8n.io/uploads/default/original/3X/9/d/9de0ce9dbb14cd0c476c4f1536c87f447c4f0d02.png",
+                    "logo": false
+                }
+            },
+            {
+                "title": "Learning path | n8n Docs",
+                "url": "https://docs.n8n.io/learning-path/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "A suggested learning path to get started with <strong>n8n</strong> <strong>through</strong> <strong>tutorials</strong>, courses, and step-by-step guides.",
+                "profile": {
+                    "name": "N8n",
+                    "url": "https://docs.n8n.io/learning-path/",
+                    "long_name": "docs.n8n.io",
+                    "img": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "docs.n8n.io",
+                    "hostname": "docs.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8",
+                    "path": "› learning-path"
+                }
+            },
+            {
+                "title": "Tutorials for Workflow Automation: Step-by-Step Guides - n8n Blog",
+                "url": "https://blog.n8n.io/tag/tutorial/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Explore <strong>tutorial</strong> articles. Discover step-by-step guides and tips to master workflow automation.",
+                "profile": {
+                    "name": "N8n",
+                    "url": "https://blog.n8n.io/tag/tutorial/",
+                    "long_name": "blog.n8n.io",
+                    "img": "https://imgs.search.brave.com/TQZTwno2gtIVQqc0JzFA_ejW09Ek1yjX5YgcsWfo__c/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjMzYWFjYzFm/YjY0NjhmMTJlODY2/NzQ1MWE1ZmIwNDFk/ZWI4MDkxNDUyMGYy/NmNlNWZiNjBhZDli/YzcxOWFlNS9ibG9n/Lm44bi5pby8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "blog.n8n.io",
+                    "hostname": "blog.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/TQZTwno2gtIVQqc0JzFA_ejW09Ek1yjX5YgcsWfo__c/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjMzYWFjYzFm/YjY0NjhmMTJlODY2/NzQ1MWE1ZmIwNDFk/ZWI4MDkxNDUyMGYy/NmNlNWZiNjBhZDli/YzcxOWFlNS9ibG9n/Lm44bi5pby8",
+                    "path": "› tag  › tutorial"
+                }
+            },
+            {
+                "title": "N8N Full Tutorial: Building AI Agents in 2025 for Beginners! - YouTube",
+                "url": "https://www.youtube.com/watch?v=ZbIVOy_GPyQ",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "In this <strong>n8n</strong> full <strong>tutorial</strong> you&#x27;ll receive the basics to building AI agents.👉🏼Master <strong>n8n</strong> and AI agents: https://www.skool.com/ai-foundations/about-----------...",
+                "page_age": "2025-01-31T14:57:48",
                 "profile": {
                     "name": "YouTube",
-                    "url": "https://www.youtube.com/@tubeguruji",
+                    "url": "https://www.youtube.com/watch?v=ZbIVOy_GPyQ",
                     "long_name": "youtube.com",
                     "img": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
                 },
                 "language": "en",
                 "family_friendly": true,
                 "type": "search_result",
-                "subtype": "generic",
+                "subtype": "video",
                 "is_live": false,
                 "meta_url": {
                     "scheme": "https",
                     "netloc": "youtube.com",
                     "hostname": "www.youtube.com",
                     "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
-                    "path": "  › tubeguruji"
+                    "path": "  › ai foundations"
                 },
                 "thumbnail": {
-                    "src": "https://imgs.search.brave.com/jVgiBxdkNaZ81c9UKrcn1CSNdD27dPIQJj3meXx3iwQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly95dDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL1B0/SlNSZFhmS0FaLURr/TnZubTlDTUQ1Z0Nr/dTZnN21mUkZHWXAt/MXhiTHAxREdmNy1S/c2xMOFA3LXN5UEpO/aGpPbmlGc0RJOFlB/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq",
-                    "original": "https://media.graphassets.com/dyls12qTBO4glNB1Kpxs",
+                    "src": "https://imgs.search.brave.com/61dPbSYGhV013VSLVzs_JY77OOAvOox0pQUKDQjqg7o/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9a/YklWT3lfR1B5US9t/YXhyZXNkZWZhdWx0/LmpwZw",
+                    "original": "https://i.ytimg.com/vi/ZbIVOy_GPyQ/maxresdefault.jpg",
                     "logo": false
-                }
+                },
+                "age": "January 31, 2025"
             },
             {
-                "title": "Youtube",
-                "url": "https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg/community",
+                "title": "Guide, Tutorials, and Updates on Workflow Automation - n8n Blog",
+                "url": "https://blog.n8n.io/",
                 "is_source_local": false,
                 "is_source_both": false,
-                "description": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy &amp; SafetyHow <strong>YouTube</strong> worksTest new features · © 2024 Google LLC · <strong>TubeGuruji</strong> - <strong>YouTube</strong>",
+                "description": "Discover insights, <strong>tutorials</strong>, and updates on workflow automation. Learn how to enhance your automation processes with expert advice and detailed guides.",
                 "profile": {
-                    "name": "YouTube",
-                    "url": "https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg/community",
-                    "long_name": "youtube.com",
-                    "img": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+                    "name": "n8n Blog",
+                    "url": "https://blog.n8n.io/",
+                    "long_name": "blog.n8n.io",
+                    "img": "https://imgs.search.brave.com/TQZTwno2gtIVQqc0JzFA_ejW09Ek1yjX5YgcsWfo__c/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjMzYWFjYzFm/YjY0NjhmMTJlODY2/NzQ1MWE1ZmIwNDFk/ZWI4MDkxNDUyMGYy/NmNlNWZiNjBhZDli/YzcxOWFlNS9ibG9n/Lm44bi5pby8"
                 },
                 "language": "en",
                 "family_friendly": true,
@@ -316,28 +409,28 @@ export const SEARCH_RESULT = {
                 "is_live": false,
                 "meta_url": {
                     "scheme": "https",
-                    "netloc": "youtube.com",
-                    "hostname": "www.youtube.com",
-                    "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
-                    "path": "  › tubeguruji"
+                    "netloc": "blog.n8n.io",
+                    "hostname": "blog.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/TQZTwno2gtIVQqc0JzFA_ejW09Ek1yjX5YgcsWfo__c/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjMzYWFjYzFm/YjY0NjhmMTJlODY2/NzQ1MWE1ZmIwNDFk/ZWI4MDkxNDUyMGYy/NmNlNWZiNjBhZDli/YzcxOWFlNS9ibG9n/Lm44bi5pby8",
+                    "path": ""
                 },
                 "thumbnail": {
-                    "src": "https://imgs.search.brave.com/G1RT9pRC-KXjQzHt42tCqnhrV2qVDd21X8rEzMPIbMY/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly95dDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tLzM2/elBqM0xpdlBpSlJu/TWRuLVdNUW1MeS0t/dzBKWmN2VVJqbGdk/TDlPRXVmS3g4X2FE/SlRrUmFIRHNjdTJN/SlIwYjkzWmNSX2Vn/PXM5MDAtYy1rLWMw/eDAwZmZmZmZmLW5v/LXJq",
-                    "original": "https://cdn.buymeacoffee.com/uploads/cover_images/2023/01/c60db92af34eee97e23e686e1954abf4.png@2560w_0e.webp",
+                    "src": "https://imgs.search.brave.com/9t4y_mKfp7Thyi3YpMPuuftNlxSp5ZCzIxUdQCGJCME/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9ibG9n/Lm44bi5pby9jb250/ZW50L2ltYWdlcy8y/MDIyLzA2L29nLWlt/YWdlLXdlYnNpdGUu/cG5n",
+                    "original": "https://blog.n8n.io/content/images/2022/06/og-image-website.png",
                     "logo": false
                 }
             },
             {
-                "title": "YouTube",
-                "url": "https://m.youtube.com/@tubeguruji",
+                "title": "Index | n8n Docs",
+                "url": "https://docs.n8n.io/courses/level-one/",
                 "is_source_local": false,
                 "is_source_both": false,
-                "description": "Share your videos with friends, family, and the world",
+                "description": "Documentation for <strong>n8n</strong>, a workflow automation platform.",
                 "profile": {
-                    "name": "YouTube",
-                    "url": "https://m.youtube.com/@tubeguruji",
-                    "long_name": "m.youtube.com",
-                    "img": "https://imgs.search.brave.com/p0B86IaQr1YuFWzlQTuEltmxPAh7UzF2DpyN8i96T6M/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZTExOWJhZDk1/ZTUxZWUwYmE3NTg0/N2QzZjQwZjZhMTE5/ZTc1NWY5MzMwYjll/OTJhNTM3ZjdmZTMw/MzdlM2EwNC9tLnlv/dXR1YmUuY29tLw"
+                    "name": "N8n",
+                    "url": "https://docs.n8n.io/courses/level-one/",
+                    "long_name": "docs.n8n.io",
+                    "img": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8"
                 },
                 "language": "en",
                 "family_friendly": true,
@@ -346,23 +439,55 @@ export const SEARCH_RESULT = {
                 "is_live": false,
                 "meta_url": {
                     "scheme": "https",
-                    "netloc": "m.youtube.com",
-                    "hostname": "m.youtube.com",
-                    "favicon": "https://imgs.search.brave.com/p0B86IaQr1YuFWzlQTuEltmxPAh7UzF2DpyN8i96T6M/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZTExOWJhZDk1/ZTUxZWUwYmE3NTg0/N2QzZjQwZjZhMTE5/ZTc1NWY5MzMwYjll/OTJhNTM3ZjdmZTMw/MzdlM2EwNC9tLnlv/dXR1YmUuY29tLw",
-                    "path": "› @tubeguruji"
+                    "netloc": "docs.n8n.io",
+                    "hostname": "docs.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8",
+                    "path": "› courses  › level-one"
                 }
             },
             {
-                "title": "Tubeguruji | Facebook",
-                "url": "https://www.facebook.com/Tubegurujiyt/",
+                "title": "A practical n8n workflow example from A to Z — Part 1: Use Case, Learning Journey and Setup | by syrom | Medium",
+                "url": "https://medium.com/@syrom_85473/a-practical-n8n-workflow-example-from-a-to-z-part-1-use-case-learning-journey-and-setup-1f4efcfb81b1",
                 "is_source_local": false,
                 "is_source_both": false,
-                "description": "<strong>Tubeguruji</strong>. 209 likes. A webpage which will give you an advance information about latest technology.....",
+                "description": "This is part 1 of a planned 3 part series, explaining the setup and the details of an <strong>n8n</strong>.io- workflow from A to Z, solving a concrete problem across several cloud services via automation and the…",
+                "page_age": "2025-01-19T16:43:08",
                 "profile": {
-                    "name": "Facebook",
-                    "url": "https://www.facebook.com/Tubegurujiyt/",
-                    "long_name": "facebook.com",
-                    "img": "https://imgs.search.brave.com/UPSLokJBKWPdNzHbqH5o3CgD13zMvR3pUTn8bk7hmPM/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw"
+                    "name": "Medium",
+                    "url": "https://medium.com/@syrom_85473/a-practical-n8n-workflow-example-from-a-to-z-part-1-use-case-learning-journey-and-setup-1f4efcfb81b1",
+                    "long_name": "medium.com",
+                    "img": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "article",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "medium.com",
+                    "hostname": "medium.com",
+                    "favicon": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw",
+                    "path": "› @syrom_85473  › a-practical-n8n-workflow-example-from-a-to-z-part-1-use-case-learning-journey-and-setup-1f4efcfb81b1"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/J_TQrqE6g2-F9NMXmoG2ZMlbKNImNx2D_UZDJ4ybl6k/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/djIvcmVzaXplOmZp/dDoxMjAwLzEqeUVV/R0lSOGQtWkJvSXZE/TU5UeVROdy5wbmc",
+                    "original": "https://miro.medium.com/v2/resize:fit:1200/1*yEUGIR8d-ZBoIvDMNTyTNw.png",
+                    "logo": false
+                },
+                "age": "January 19, 2025"
+            },
+            {
+                "title": "A very quick quickstart | n8n Docs",
+                "url": "https://docs.n8n.io/try-it-out/quickstart/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "This quickstart gets you started using <strong>n8n</strong> as quickly as possible. Its allows you to try out the UI and introduces two key features: workflow templates and expressions. It doesn&#x27;t include detailed explanations or explore concepts in-depth · In this <strong>tutorial</strong>, you will:",
+                "profile": {
+                    "name": "N8n",
+                    "url": "https://docs.n8n.io/try-it-out/quickstart/",
+                    "long_name": "docs.n8n.io",
+                    "img": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8"
                 },
                 "language": "en",
                 "family_friendly": true,
@@ -371,51 +496,18 @@ export const SEARCH_RESULT = {
                 "is_live": false,
                 "meta_url": {
                     "scheme": "https",
-                    "netloc": "facebook.com",
-                    "hostname": "www.facebook.com",
-                    "favicon": "https://imgs.search.brave.com/UPSLokJBKWPdNzHbqH5o3CgD13zMvR3pUTn8bk7hmPM/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw",
-                    "path": "› Tubegurujiyt"
-                },
-                "thumbnail": {
-                    "src": "https://imgs.search.brave.com/b7YZVp5dfBSwZhxu9uV3JifdTsUCf_1gQc12sXwfsMM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zY29u/dGVudC1kZW4yLTEu/eHguZmJjZG4ubmV0/L3YvdDM5LjMwODA4/LTEvMzM2MjI4MDY2/XzcxNzA2ODU4OTg5/MTMxMl8xNzE1NjEw/MjE3MTA4NjQzMDY5/X24uanBnP2NzdHA9/bXg4MDB4ODAwJmFt/cDtjdHA9czcyMHg3/MjAmYW1wO19uY19j/YXQ9MTA5JmFtcDtj/Y2I9MS03JmFtcDtf/bmNfc2lkPTNhYjM0/NSZhbXA7X25jX29o/Yz1uRGFELXp3T0J2/WVE3a052Z0ZHYzBW/aiZhbXA7X25jX29j/PUFkaWV2MDRHWm5Z/RHpmSUtXQTlwTFlv/ZUROeHR0ZGxWWlNG/NmpXdjZLNHAwMTdV/RkMxcTk5SlFkR29E/VklRakFaY3cmYW1w/O19uY196dD0yNCZh/bXA7X25jX2h0PXNj/b250ZW50LWRlbjIt/MS54eCZhbXA7X25j/X2dpZD1BcXNSY0x5/d0l5ZkRlMkNaR1lP/cWkwdyZhbXA7b2g9/MDBfQVlCWE9LcG9W/UzhFcElzLWdXVG1C/YXAtbVRiN1hhVUtv/N1V0T1o2Z3RjNkU2/QSZhbXA7b2U9NjdD/MUZCNDQ",
-                    "original": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlM4mQQioIocVKnCtkt743adVbTkfJWEkTWw&s",
-                    "logo": false
-                }
-            },
-            {
-                "title": "Tubeguruji - Buymeacoffee",
-                "url": "https://buymeacoffee.com/tubegurujiw",
-                "is_source_local": false,
-                "is_source_both": false,
-                "description": "Welcome to <strong>TUBEGURUJI</strong>, the ultimate destination for coding and programming tutorials! Our channel is dedicated to helping developers of all levels improve their skills and advance their careers. Wh",
-                "profile": {
-                    "name": "Buy Me a Coffee",
-                    "url": "https://buymeacoffee.com/tubegurujiw",
-                    "long_name": "buymeacoffee.com",
-                    "img": "https://imgs.search.brave.com/ajAe41Tm90LNpM1V7Z7v7Metba_6_GmBZsxM07tRNBQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTU3ODQ2OTZi/ZGFhZWZkMTM5NTg2/Zjc0YmM1MzY2ZDE1/NjAzOGI3ZjJiYTJi/ZGE0ODAyNTUyNTU5/YjAwMDg3Ny9idXlt/ZWFjb2ZmZWUuY29t/Lw"
-                },
-                "language": "en",
-                "family_friendly": true,
-                "type": "search_result",
-                "subtype": "generic",
-                "is_live": false,
-                "meta_url": {
-                    "scheme": "https",
-                    "netloc": "buymeacoffee.com",
-                    "hostname": "buymeacoffee.com",
-                    "favicon": "https://imgs.search.brave.com/ajAe41Tm90LNpM1V7Z7v7Metba_6_GmBZsxM07tRNBQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTU3ODQ2OTZi/ZGFhZWZkMTM5NTg2/Zjc0YmM1MzY2ZDE1/NjAzOGI3ZjJiYTJi/ZGE0ODAyNTUyNTU5/YjAwMDg3Ny9idXlt/ZWFjb2ZmZWUuY29t/Lw",
-                    "path": "› tubegurujiw"
-                },
-                "thumbnail": {
-                    "src": "https://imgs.search.brave.com/QO4_STBC6KdBtCTk5dPYJIOyc0yFZtr4UyL4K3oMP4c/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnV5bWVhY29mZmVl/LmNvbS9vcGVuZ3Jh/cGgvaW1hZ2VzLzMx/NjIwOTYvMS9vZ182/MTUzMzA1XzE3NDM4/ODU2MDcuanBn",
-                    "original": "https://cdn.buymeacoffee.com/opengraph/images/3162096/1/og_6153305_1743885607.jpg",
-                    "logo": false
+                    "netloc": "docs.n8n.io",
+                    "hostname": "docs.n8n.io",
+                    "favicon": "https://imgs.search.brave.com/DdRYaiXZG3Bu8S-FG_oJXAA1JU4tO7aA0TrLCOmcmHc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTRlM2RjYmJl/MjZhYTY5NzFkMzY2/NTU0MzRmYjUzMTk0/MDc2ZjdkOWU2NmUw/ZjkyNjliYTQ1ZmZj/Y2M1MTE0My9kb2Nz/Lm44bi5pby8",
+                    "path": "› try-it-out  › quickstart"
                 }
             }
         ],
         "family_friendly": true
     }
 }
+
+
 
 export const formattedSearchResp =
     [
