@@ -34,14 +34,14 @@ function DisplayResult({ searchInputRecord }) {
 
     const GetSearchApiResult = async () => {
         setLoadingSearch(true);
-        // const result = await axios.post('/api/brave-search-api', {
-        //     searchInput: userInput ?? searchInputRecord?.searchInput,
-        //     searchType: searchInputRecord?.type ?? 'Search'
-        // });
-        // const searchResp = result.data;
-        // console.log('searchResp = result.data: ', searchResp);
+        const result = await axios.post('/api/brave-search-api', {
+            searchInput: userInput ?? searchInputRecord?.searchInput,
+            searchType: searchInputRecord?.type ?? 'Search'
+        });
+        const searchResp = result.data;
+        console.log('searchResp = result.data: ', searchResp);
 
-        const searchResp = SEARCH_RESULT
+        // const searchResp = SEARCH_RESULT
         // //Save to DB
         const formattedSearchResp = searchResp?.web?.results?.map((item, index) => (
             {

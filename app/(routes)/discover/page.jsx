@@ -26,10 +26,10 @@ const options = [
         title: 'Sports',
         icon: Volleyball
     },
-    // {
-    //     title: 'Entertainment',
-    //     icon: Tv
-    // },
+    {
+        title: 'Entertainment',
+        icon: Tv
+    },
 ]
 
 function Discover() {
