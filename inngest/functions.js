@@ -45,13 +45,16 @@ export const llmModel = inngest.createFunction(
         })
 
         const saveToDb = await step.run('saveToDb', async () => {
-            console.log(aiResp)
             const { data, error } = await supabase
                 .from('Chats')
-                .update({ aiResp: aiResp?.candidates[0].content.parts[0].text })
+                .update({
+                    aiResp: aiResp?.candidates[0].content.parts[0].text
+                })
                 .eq('id', event.data.recordId)
                 .select()
 
+            console.log('aiResp: ', aiResp)
+            console.log('event.data.recordId: ', event.data.recordId)
             return aiResp;
         })
 
