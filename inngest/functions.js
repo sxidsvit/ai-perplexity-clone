@@ -16,8 +16,8 @@ export const llmModel = inngest.createFunction(
     async ({ event, step }) => {
         const aiResp = await step.ai.infer('generate-ai-llm-model-call', {
             model: step.ai.models.gemini({
-                // model: 'gemini-2.0-flash-exp-image-generation',
-                model: 'gemini-1.5-flash',
+                model: 'gemini-2.0-flash-exp-image-generation',
+                // model: 'gemini-1.5-flash',
                 apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY
             }),
             body: {
