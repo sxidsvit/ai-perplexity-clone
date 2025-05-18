@@ -21,7 +21,6 @@ function Library() {
             .select('*')
             .eq('userEmail', user?.primaryEmailAddress?.emailAddress)
             .order('id', { ascending: false })
-        console.log(Library);
         setLibraryHistory(Library);
     }
     return (

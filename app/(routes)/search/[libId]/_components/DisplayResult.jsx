@@ -39,7 +39,6 @@ function DisplayResult({ searchInputRecord }) {
             searchType: searchInputRecord?.type ?? 'Search'
         });
         const searchResp = result.data;
-        console.log('searchResp = result.data: ', searchResp);
 
         // const searchResp = SEARCH_RESULT
         // //Save to DB
@@ -75,7 +74,6 @@ function DisplayResult({ searchInputRecord }) {
                 },
             ])
             .select()
-        console.log('Chats (data from table): ', data);
 
         setUserInput('')
         await GetSearchRecords();
@@ -98,7 +96,6 @@ function DisplayResult({ searchInputRecord }) {
                 runId: runId
             });
 
-            // if (runResp?.data?.data[0]?.status == 'Completed') {
             if (runResp?.data?.data[0]?.status == 'Completed') {
                 console.log('Completed!!!')
                 await GetSearchRecords();
