@@ -52,6 +52,9 @@ export const llmModel = inngest.createFunction(
                 })
                 .eq('id', event.data.recordId)
                 .select()
+            if (error) {
+                console.error('Supabase saveToDb() error:', error);
+            }
 
             console.log('aiResp: ', aiResp)
             console.log('event.data.recordId: ', event.data.recordId)

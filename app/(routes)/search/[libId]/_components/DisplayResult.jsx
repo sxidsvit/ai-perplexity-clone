@@ -98,6 +98,7 @@ function DisplayResult({ searchInputRecord }) {
                 runId: runId
             });
 
+            // if (runResp?.data?.data[0]?.status == 'Completed') {
             if (runResp?.data?.data[0]?.status == 'Completed') {
                 console.log('Completed!!!')
                 await GetSearchRecords();
@@ -113,8 +114,9 @@ function DisplayResult({ searchInputRecord }) {
             .select('*,Chats(*)')
             .eq('libId', libId)
             .order('id', { foreignTable: 'Chats', ascending: true })
-
-            ;
+        if (error) {
+            console.error('Supabase GetSearchRecords() error:', error);
+        }
         setSearchResult(Library[0])
     }
 
